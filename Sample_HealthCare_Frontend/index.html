@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adya Care - Putting people at the center of cancer care</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./assets/adya_care_logo.png" alt="AdyaCare Logo" width="80" height="50">
+                    <h2>adya<span>care</span></h2>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#approach">Our Approach</a></li>
+                    <li><a href="#clients">Our Clients</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScGykJt0fR9Tab1eIquB6kHlBT65PKc6D0493hSJvr6ZIIAag/viewform?usp=sharing" class="cta-button demo-btn">Book a Demo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero bg-gray-100 py-12">
+        <div class="container mx-auto px-6 lg:px-12 flex flex-col-reverse lg:flex-row items-center">
+            <!-- Left Content -->
+            <div class="lg:w-1/2 text-center lg:text-left animate-fade-in">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900">
+                    Putting People at the Center of Cancer Care
+                </h1>
+                <p class="mt-4 text-lg text-gray-700">
+                    Adya Care is committed to transforming cancer rehabilitation by providing personalized, compassionate, and effective care solutions that prioritize the individual's journey to recovery.
+                </p>
+                <div class="mt-10 flex flex-col md:flex-row justify-center lg:justify-start gap-6">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScGykJt0fR9Tab1eIquB6kHlBT65PKc6D0493hSJvr6ZIIAag/viewform?usp=sharing" class="cta-button demo-btn">Book a Demo</a>
+
+                    <a href="#" class="cta-button learn-btn">Learn More</a>
+                </div>
+            </div>
+    
+            <!-- Right Image -->
+            <div class="lg:w-1/2 flex justify-center">
+                <img src="./assets/mother_and_daughter.jpeg" alt="Mother and Daughter Smiling" 
+                     class="w-full max-w-lg rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Adya Care</h2>
+                <p>We're on a mission to revolutionize cancer rehabilitation care by putting people first.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./assets/cancer_patient_helped.jpg" width="600" height="400" alt="Cancer care professionals helping a patient">
+                </div>
+                <div class="about-text">
+                    <h3>Human-centered cancer rehabilitation</h3>
+                    <p>At Adya Care, we understand that cancer treatment is more than just medical procedures—it's a deeply personal journey that affects every aspect of life. Our comprehensive rehabilitation programs are designed to support individuals through their entire cancer journey.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-user-md"></i>
+                            <div class="feature-text">
+                                <h4>Expert Care Team</h4>
+                                <p>Our multidisciplinary team includes oncologists, physical therapists, nutritionists, and mental health professionals dedicated to your recovery.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clipboard-check"></i>
+                            <div class="feature-text">
+                                <h4>Personalized Programs</h4>
+                                <p>We create customized rehabilitation plans that address the unique needs and challenges of each person we serve.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-hands-helping"></i>
+                            <div class="feature-text">
+                                <h4>Holistic Support</h4>
+                                <p>Our approach integrates physical rehabilitation with emotional and social support for complete healing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="problems" class="problems-section">
+        <div class="container">
+
+            <h2 class="section-heading" data-aos="fade-up">The Problems with Current Cancer Treatments</h2>
+
+            <!-- First Row: Image Left, Text Right -->
+            <div class="problem-row">
+                <div class="problem-image" data-aos="fade-right">
+                    <img src="./assets/lack_of_personal_treatment.jpeg" alt="Lack of Personalized Care">
+                </div>
+                <div class="problem-text" data-aos="fade-left">
+                    <h2>Lack of Personalized Care</h2>
+                    <p>Most cancer programs follow a generic approach, neglecting personalized treatment plans. Every patient’s journey is different, but standardized protocols often overlook individual needs, leading to suboptimal recovery.</p>
+                </div>
+            </div>
+    
+            <!-- Second Row: Text Left, Image Right -->
+            <div class="problem-row reverse">
+                <div class="problem-text" data-aos="fade-right">
+                    <h2>Side Effects and Quality of Life</h2>
+                    <p>Chemotherapy can cause temporary side effects like hair loss, nausea, and fatigue. Some cancer treatments may lead to long-term health challenges for survivors.</p>
+                </div>
+                <div class="problem-image" data-aos="fade-left">
+                    <img src="./assets/side_effects_of_cancer.jpeg" alt="Limited Support">
+                </div>
+            </div>
+    
+            <!-- Third Row: Image Left, Text Right -->
+            <div class="problem-row">
+                <div class="problem-image" data-aos="fade-right">
+                    <img src="./assets/slow_adoption_of_technology.png" height="300" width="200" alt="Slow Adoption of Technology">
+                </div>
+                <div class="problem-text" data-aos="fade-left">
+                    <h2>Slow Adoption of Technology</h2>
+                    <p>Despite advancements in AI and data-driven healthcare, many cancer programs still rely on outdated methods. This leads to inefficiencies in diagnosis, treatment planning, and patient monitoring.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Our Approach Section -->
+
+    <section id="how-adya-care-helps" class="help-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">How Adya Care Helps Patients</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Delivering transformative care through a proven clinically-grounded solution.
+            </p>
+    
+            <div class="help-grid">
+                <!-- Card 1 -->
+                <div class="help-card" data-aos="zoom-in">
+                    <img src="./assets/personalized_patient_support.jpeg" alt="Patient Support">
+                    <div class="card-content">
+                        <h3>Personalized Patient Support</h3>
+                        <p>Adya Care tailors rehabilitation programs to individual needs, ensuring each patient receives a customized recovery plan.</p>
+                    </div>
+                </div>
+    
+                <!-- Card 2 -->
+                <div class="help-card" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="./assets/cancer_treatment_cost.png" alt="Cost Reduction">
+                    <div class="card-content">
+                        <h3>Reduction in Medical Costs</h3>
+                        <p>Studies show up to <strong>85% reduction</strong> in oncology billables and <strong>65% reduction</strong> in cardiovascular treatments.</p>
+                    </div>
+                </div>
+    
+                <!-- Card 3 -->
+                <div class="help-card" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="./assets/holistic_care.jpeg" alt="Holistic Care">
+                    <div class="card-content">
+                        <h3>Holistic Approach to Care</h3>
+                        <p>Beyond physical recovery, Adya Care focuses on emotional and psychological well-being, improving overall quality of life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="app-showcase" class="app-showcase">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Our Mobile App</h2>
+                <p>Our mobile app provides seamless support for patients, offering real-time guidance, therapy tracking, and personalized insights.</p>
+            </div>
+    
+            <div class="tabs">
+                <button class="tab-button active" onclick="showTab(0)">Onboarding & Profile</button>
+                <button class="tab-button" onclick="showTab(1)">Therapy & Assistance</button>
+                <button class="tab-button" onclick="showTab(2)">Reports & Insights</button>
+            </div>
+    
+            <div class="tab-container">
+                <div class="tab-content active">
+                    <div class="image-group">
+                        <img src="./assets/adya_care_app_scenery.png" alt="Onboarding screen">
+                        <img src="./assets/adya_care_weekly_snapshots.png" alt="Profile setup">
+                        <img src="./assets/adya_care_mood.png" alt="Dashboard overview">
+                    </div>
+                </div>
+    
+                <div class="tab-content">
+                    <div class="image-group">
+                        <img src="./assets/adya_care_original_vc.png" alt="Chat with specialists">
+                        <img src="./assets/adya_care_app.png" alt="Therapy tracking">
+                        <img src="./assets/adya_care_discover.png" alt="Daily reminders">
+                    </div>
+                </div>
+    
+                <div class="tab-content">
+                    <div class="image-group">
+                        <img src="./assets/adya_care_health_metrics.png" alt="Health reports">
+                        <img src="./assets/adya_care_steps.png" alt="Prescriptions overview">
+                        <img src="./assets/adya_care_heart_rate.png" alt="Doctor recommendations">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Dynamic message section -->
+            <p id="dynamic-message">Explore the onboarding experience tailored just for you.</p>
+        </div>
+    </section>
+    
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Trusted Partners</h2>
+                <p>We collaborate with leading healthcare providers and institutions to deliver exceptional care.</p>
+            </div>
+            <div class="clients-grid">
+                <div class="client-card">
+                    <img src="assets/amazon.jpg" width="200" height="80" alt="Memorial Healthcare">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/blue_california.jpeg" width="200" height="80" alt="Pacific Cancer Institute">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/BlueCross_BlueShield-logo.png" width="200" height="80" alt="Wellness Partners">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/bnsf.png" width="200" height="80" alt="Hope Medical Center">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/boston_scientific.png" width="200" height="80" alt="University Hospital">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/docusign.png" width="200" height="80" alt="Regional Health Network">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/kohler.png" width="200" height="80" alt="Cancer Care Alliance">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/loreal.png" width="200" height="80" alt="Integrated Health Systems">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/microsoft.png" width="200" height="80" alt="Community Care Partners">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/morgan_stanley.jpg" width="200" height="80" alt="Recovery Health Group">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/sofi.png" width="200" height="80" alt="Recovery Health Group">
+                </div>
+                <div class="client-card">
+                    <img src="./assets/mlb.png" width="200" height="80" alt="Recovery Health Group">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="bg-gray-100 py-32"></section>
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-8">
+                <div></div>
+                <h2 class="text-4xl font-bold text-gray-900">Latest Insights</h2>
+                <p class="text-gray-600 mt-2">Stay informed with our latest articles, research, and stories of hope and recovery.</p>
+            </div>
+    
+            <!-- Swiper Carousel -->
+            <div class="swiper mySwiper py-8">
+                <div class="swiper-wrapper">
+                    <!-- Blog Card 1 -->
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transform transition hover:scale-105 p-6 max-w-sm mx-auto">
+                            <img src="./assets/exercise_during_therepy.jpeg" alt="Physical therapy for cancer patients" class="w-full rounded-t-lg">
+                            <p class="text-sm text-gray-500 mt-2">February 15, 2025</p>
+                            <h3 class="text-lg font-semibold">The Role of Exercise in Cancer Recovery</h3>
+                            <p class="text-gray-600 mt-3">Discover how targeted physical activity can improve recovery outcomes.</p>
+                            <a href="#" class="mt-4 block text-orange-500 font-semibold hover:underline">Read More →</a>
+                        </div>
+                    </div>
+    
+                    <!-- Blog Card 2 -->
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transform transition hover:scale-105 p-6 max-w-sm mx-auto">
+                            <img src="./assets/nutrition.jpg" alt="Nutritional support during cancer treatment" class="w-full rounded-t-lg">
+                            <p class="text-sm text-gray-500 mt-2">February 8, 2025</p>
+                            <h3 class="text-lg font-semibold">Nutrition Strategies During Cancer Treatment</h3>
+                            <p class="text-gray-600 mt-3">Learn about nutritional approaches that help manage treatment side effects.</p>
+                            <a href="#" class="mt-4 block text-orange-500 font-semibold hover:underline">Read More →</a>
+                        </div>
+                    </div>
+    
+                    <!-- Blog Card 3 -->
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transform transition hover:scale-105 p-6 max-w-sm mx-auto">
+                            <img src="./assets/mental_health.jpeg" alt="Mental health support for cancer patients" class="w-full rounded-t-lg">
+                            <p class="text-sm text-gray-500 mt-2">January 30, 2025</p>
+                            <h3 class="text-lg font-semibold">Mental Wellness Through the Cancer Journey</h3>
+                            <p class="text-gray-600 mt-3">Practical approaches to maintaining emotional health during treatment.</p>
+                            <a href="#" class="mt-4 block text-orange-500 font-semibold hover:underline">Read More →</a>
+                        </div>
+                    </div>
+    
+                    <!-- Blog Card 4 -->
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transform transition hover:scale-105 p-6 max-w-sm mx-auto">
+                            <img src="./assets/breakthrough_in_cancer_treatment.jpeg" alt="New Treatment Breakthroughs" class="w-full rounded-t-lg">
+                            <p class="text-sm text-gray-500 mt-2">January 22, 2025</p>
+                            <h3 class="text-lg font-semibold">New Breakthroughs in Cancer Treatment</h3>
+                            <p class="text-gray-600 mt-3">Discover the latest advancements shaping the future of cancer care.</p>
+                            <a href="#" class="mt-4 block text-orange-500 font-semibold hover:underline">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Navigation Buttons -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new Swiper('.swiper', {
+                loop: true,
+                spaceBetween: 15,
+                slidesPerView: 1,
+                breakpoints: {
+                    768: { slidesPerView: 2, spaceBetween: 20 },
+                    1024: { slidesPerView: 3, spaceBetween: 30 }
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true
+                }
+            });
+        });
+    </script>
+        
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to transform your organization's approach to cancer care?</h2>
+            <p>Our team will walk you through how Adya Care can integrate with your existing programs to enhance patient outcomes and satisfaction.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScGykJt0fR9Tab1eIquB6kHlBT65PKc6D0493hSJvr6ZIIAag/viewform?usp=sharing" class="cta-demo-button demo-btn">Book a Demo Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p>Adya Care is dedicated to transforming cancer rehabilitation through personalized, human-centered approaches that improve quality of life and recovery outcomes.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#approach">Our Approach</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
