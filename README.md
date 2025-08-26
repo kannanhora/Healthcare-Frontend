@@ -1,0 +1,1 @@
+A responsive healthcare website built using HTML, CSS, and JavaScript, designed to provide users with an intuitive interface for exploring healthcare services, booking appointments, and accessing health-related information.
